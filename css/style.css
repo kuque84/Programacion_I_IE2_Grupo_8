@@ -73,3 +73,17 @@ p{
     width: unset;
     height: unset;
 }
+
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* Home CSS */
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position: relative;
+}

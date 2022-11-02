@@ -204,4 +204,14 @@ color:var(--text-white);
     background-color:var(--bg-danger);
     }
 
-    
+.img1 .img2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px;
+    overflow: hidden;
+    display: block;
+}
+.img2{
+    clip-path: rect(0px, 100px, 100px, 0px) ;
+}

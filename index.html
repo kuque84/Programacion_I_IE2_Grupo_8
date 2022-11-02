@@ -55,7 +55,7 @@
             </div>
           </nav>
         </section>
-
+      
     <!-- Home Section -->
     <section id="home" class="home pt-5 overflow-hidden">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -94,6 +94,7 @@
             <span class="ti-angle-right slider-icon"></span>
           </span>
           <span class="visually-hidden">Next</span>
+          title
         </button>
       </div>
 
@@ -107,7 +108,8 @@
                 <div class="offer-box text-center position-relative mb4 mb-sm-0 mb-lg-0">
                   <div class="offer-inner">
                     <div class="offer-image position-relative overflow-hidden">
-                      <img src="/img/offer2.jpg" alt="Offers" class="img-fluid">
+                      <img class="img1" src="/img/outfit1.webp" alt="Offers" class="img-fluid" width="400">
+                      <img name="big" class="img2" src="/img/outfit1.webp" alt="Offers" class="img-fluid" width="800">
                       <div class="offer-overlay"></div>
                     </div>
                     <div class="offer-info">
@@ -115,6 +117,46 @@
                       p class="heading-bigger text-capitalize">Descuento 30%</p>
                       <p class="offer-title-1 text-uppercase font-weight-bold">No te lo pierdas</p>
                       <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Comprar!</button>
+                      <title>zoom</title>
+                      <style> type="text/css" </style>
+                      <style type="text/css"</style></style>
+                      .img1 .img2{
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        border: 0px;
+                        overflow: hidden;
+                        display: block;
+                    }
+                    .img2{
+                        clip-path: rect(0px, 100px, 100px, 0px) ;
+                    }
+                      
+                    <script>
+                      document.onmousemove=ver;
+
+function ver(e){
+    var x, y, x1, y1, x2, y2;
+    fact= 800/400;
+    opp= 100;
+
+    if(e ==null) e=window.event;
+    x= e.clientX;
+    y= e.clientY;
+
+    x1=opp-(x)*fact;
+    y1=opp-(y)*fact;
+    x2=opp+(x)*fact;
+    y2=opp+(y)*fact;s
+    
+    document.images.big.style.display= "inline";
+    document.images.big.style.left= (x)* (1-fact);
+    document.images.big.style.top= (y)* (1-fact);
+    document.images.big.style.clip= "rect("+y1+"px", +x2+"px",+y2+"px", x1+"px)";
+
+
+
+}</script>
                       </div>
                     </div>
                   </div>
@@ -151,6 +193,7 @@
                         p class="heading-bigger text-capitalize">Descuento 50%</p>
                         <p class="offer-title-1 text-uppercase font-weight-bold">No te lo pierdas</p>
                         <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Comprar!</button>
+                        
           </div>
                <!-- Box de ofertas cuatro-->
                <div class="col-sm-6 col-lg4 mb-lg-0 mb-4 d-flex flex-column justifity-content-between">
